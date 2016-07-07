@@ -176,10 +176,10 @@ public class MyActivity extends Activity  implements GoogleApiClient.ConnectionC
         if (SEND_MESSAGES[7].equals(msg)) {
             mSurfaceView.punch();
             mSoundPool.play(mSE6,1.0f, 1.0f, 0, 0, 1.0f);
-        } else if (SEND_MESSAGES[10].equals(msg)) {
+        } else if (SEND_MESSAGES[9].equals(msg)) {
             mSurfaceView.upper();
             mSoundPool.play(mSE7, 1.0f, 1.0f, 0, 0, 1.0f);
-        } else if (SEND_MESSAGES[3].equals(msg)) {
+        } else if (SEND_MESSAGES[10].equals(msg)) {
             mSurfaceView.hook();
             mSoundPool.play(mSE8, 1.0f, 1.0f, 0, 0, 1.0f);
         }
